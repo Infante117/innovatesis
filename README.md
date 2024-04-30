@@ -4,3 +4,5 @@ login:
 
 Datos de la empresa:
 ![image](https://github.com/Infante117/innovatesis/assets/116971842/027b5f22-ea0c-47b0-acaa-876aa17e957d)
+
+Nota: para el registro de usuarios: solo se ingresa el dni los campos nombres y apellidos se completan solos, ya que utiliza el api de reniec.
