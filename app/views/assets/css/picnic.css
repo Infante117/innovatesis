@@ -1,0 +1,155 @@
+﻿
+.dropimage,
+button,
+.button,
+[type=submit],
+.label,
+[data-tooltip]:after {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: inherit;
+    margin: 0;
+    padding: .3em .9em;
+    vertical-align: middle;
+    background: #0074d9;
+    color: #fff;
+    border: 0;
+    border-radius: .2em;
+    width: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.success.dropimage,
+button.success,
+.success.button,
+.success[type=submit],
+.success.label,
+.success[data-tooltip]:after {
+    background: #2ecc40
+}
+
+.warning.dropimage,
+button.warning,
+.warning.button,
+.warning[type=submit],
+.warning.label,
+.warning[data-tooltip]:after {
+    background: #ff851b
+}
+
+.error.dropimage,
+button.error,
+.error.button,
+.error[type=submit],
+.error.label,
+.error[data-tooltip]:after {
+    background: #ff4136
+}
+
+.pseudo.dropimage,
+button.pseudo,
+.pseudo.button,
+.pseudo[type=submit],
+.pseudo.label,
+.pseudo[data-tooltip]:after {
+    background-color: transparent;
+    color: inherit
+}
+
+.label,
+[data-tooltip]:after {
+    font-size: .6em;
+    padding: .4em .6em;
+    margin-left: 1em;
+    line-height: 1
+}
+
+.dropimage,
+button,
+.button,
+[type=submit] {
+    margin: .3em 0;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: .2em;
+    height: auto;
+    vertical-align: baseline;
+    box-shadow: 0 0 rgba(17, 17, 17, 0) inset
+}
+
+.dropimage:hover,
+button:hover,
+.button:hover,
+[type=submit]:hover,
+.dropimage:focus,
+button:focus,
+.button:focus,
+[type=submit]:focus {
+    box-shadow: inset 0 0 0 99em rgba(255, 255, 255, .2);
+    border: 0
+}
+
+.pseudo.dropimage:hover,
+button.pseudo:hover,
+.pseudo.button:hover,
+.pseudo[type=submit]:hover,
+.pseudo.dropimage:focus,
+button.pseudo:focus,
+.pseudo.button:focus,
+.pseudo[type=submit]:focus {
+    box-shadow: inset 0 0 0 99em rgba(17, 17, 17, .1)
+}
+
+.active.dropimage,
+button.active,
+.active.button,
+.active[type=submit],
+.dropimage:active,
+button:active,
+.button:active,
+[type=submit]:active {
+    box-shadow: inset 0 0 0 99em rgba(17, 17, 17, .2)
+}
+
+[disabled].dropimage,
+button[disabled],
+[disabled].button,
+[disabled][type=submit] {
+    cursor: default;
+    box-shadow: none;
+    background: #aaa
+}
+
+
+.dropimage {
+    position: relative;
+    display: block;
+    padding: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0;
+    margin: .3em 0;
+    border-radius: .2em;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNjQwIiB2ZXJzaW9uPSIxLjEiPjxnIHN0eWxlPSJmaWxsOiMzMzMiPjxwYXRoIGQ9Ik0gMTg3IDIzMCBDIDE3NSAyMzAgMTY1IDI0MCAxNjUgMjUyIEwgMTY1IDMwMCBMIDE2NSA0MDggQyAxNjUgNDIwIDE3NSA0MzAgMTg3IDQzMCBMIDQ2MyA0MzAgQyA0NzUgNDMwIDQ4NSA0MjAgNDg1IDQwOCBMIDQ4NSAzMDAgTCA0ODUgMjUyIEMgNDg1IDI0MCA0NzUgMjMwIDQ2MyAyMzAgTCAxODcgMjMwIHogTSAzNjAgMjU2IEEgNzAgNzIgMCAwIDEgNDMwIDMyOCBBIDcwIDcyIDAgMCAxIDM2MCA0MDAgQSA3MCA3MiAwIDAgMSAyOTAgMzI4IEEgNzAgNzIgMCAwIDEgMzYwIDI1NiB6Ii8+PGNpcmNsZSBjeD0iMzYwIiBjeT0iMzMwIiByPSI0MSIvPjxwYXRoIGQ9Im0yMDUgMjI1IDUtMTAgMjAgMCA1IDEwLTMwIDAiLz48cGF0aCBkPSJNMjg1IDIwMEwyNzAgMjI1IDM3NiAyMjUgMzYxIDIwMCAyODUgMjAwek0zMTAgMjA1TDMzNyAyMDUgMzM3IDIxOCAzMTAgMjE4IDMxMCAyMDV6Ii8+PHBhdGggZD0ibTQwNSAyMjUgNS0xMCAyMCAwIDUgMTAtMzAgMCIvPjwvZz48L3N2Zz4=)
+}
+
+.dropimage input {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute
+}
